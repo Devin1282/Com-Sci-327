@@ -1,0 +1,17 @@
+-- Changelog --
+
+11/16/16 7:24pm - Modified combat to calculate damage
+
+11/16/16 7:00pm - Created functions in io.cpp for equiping and unequiping items
+
+11/16/16 6:41pm - Created functions for dropping items and destroying items
+
+11/16/16 6:12pm - BUG FIXED:  needed to initialize arrays to store 0.
+
+11/16/16 5:58pm - BUG: segmentation fault when checking inventory for object
+
+11/16/16 5:45pm - Added functions in io.cpp to draw equipment and inventory
+
+11/16/16 5:12pm - Added equipment and inventory arrays
+
+11/16/16 5:00pm - Modified do_moves function to look for object underneath player
